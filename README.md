@@ -392,6 +392,26 @@ Cloudflare VibeSDK implements enterprise-grade security:
 
 ---
 
+## 📖 Documentation
+
+### Deployment & Architecture
+- **[Deployment Architecture](docs/deployment-architecture.md)** - Complete system architecture and deployment overview
+- **[Container Deployment](docs/container-deployment.md)** - How containers work in Cloudflare's edge infrastructure  
+- **[Python Deployment](docs/python-deployment.md)** - Why Python isn't deployed (debug tools only)
+
+### Technical Details  
+- **[Architecture Diagrams](docs/architecture-diagrams.md)** - Visual system overview
+- **[Project Report](docs/projectreport.md)** - Implementation details and design decisions
+- **[API Collection](docs/POSTMAN_COLLECTION_README.md)** - Postman collection for testing APIs
+
+`★ Insight ─────────────────────────────────────`
+• The vibesdk uses a serverless, edge-first architecture - no traditional servers
+• Containers run within Cloudflare Workers for secure user code execution  
+• Python exists only as local debugging tools, not deployed infrastructure
+`─────────────────────────────────────────────────`
+
+---
+
 ## 🤝 Contributing
 
 Want to contribute to Cloudflare VibeSDK? Here's how:
